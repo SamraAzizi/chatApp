@@ -103,12 +103,4 @@ chat-application/
 - The application is designed for local testing and may require additional configuration for use over a network.
 - Error handling can be improved for robustness.
 
-## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Author
-
-[Your Name](https://github.com/your-username)
-
-Feel free to contribute by submitting issues or pull requests!
