@@ -78,6 +78,30 @@ const int PORT = 54000;                     // Port number
 const int BUFFER_SIZE = 4096;               // Message buffer size
 ```
 
+## How to Use
+
+1. Start the server by running the `ChatServer` executable.
+2. Start one or more clients by running the `ChatClient` executable.
+3. Type messages in the client terminal to send messages to the server.
+4. Type `quit` in the client terminal to disconnect from the server.
+
+## File Structure
+
+```
+chat-application/
+├── server/
+│   ├── ChatServer.cpp  # Server-side implementation
+│   └── ChatCommon.h    # Shared configuration header
+├── client/
+│   ├── ChatClient.cpp  # Client-side implementation
+│   └── ChatCommon.h    # Shared configuration header
+└── README.md           # Documentation
+```
+
+## Known Issues
+
+- The application is designed for local testing and may require additional configuration for use over a network.
+- Error handling can be improved for robustness.
 
 
 
